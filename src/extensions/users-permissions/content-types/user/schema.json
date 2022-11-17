@@ -68,6 +68,12 @@
     },
     "user_image_id": {
       "type": "integer"
+    },
+    "favourite_id": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::favourite.favourite",
+      "mappedBy": "user"
     }
   }
 }

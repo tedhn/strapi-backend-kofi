@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * account service
+ * favourite service
  */
 
 const { createCoreService } = require('@strapi/strapi').factories;
 
-module.exports = createCoreService('api::account.account');
+module.exports = createCoreService('api::favourite.favourite');
